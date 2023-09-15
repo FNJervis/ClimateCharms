@@ -1,17 +1,37 @@
+/* shop.css */
 .shopTitle {
-    margin-top: 100px;
+    margin-left: 300px;
+    margin-top: 30px;
     text-align: center;
-    font-size: 40px;
-}
-.products {
-    width: 100%;
-    height: auto;
+    font-size: 30px;
+    color: var(--moonstone); /* Use the moonstone color from your palette */
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Allproducts{
+    margin-top: 10;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-}
-
-.product {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2{
+    margin-top: 100px;
+  }
+  
+  .products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--moonstone);
+  }
+  
+  .product {
     border-radius: 15px;
     width: 300px;
     height: 350px;
@@ -20,34 +40,39 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.product img {
-    width: 400px;
-}
-
-.product .description {
-    text-align: center;
-}
-
-.product:hover {
+    border: 2px solid var(--paynes-gray); /* Use the paynes-gray color for the border */
     transition: 0.3s ease-in;
     cursor: pointer;
-}
-
-.addToCartBttn {
-    background-color: black;
-    border: 2px solid rgb(19, 19, 19);
+  }
+  
+  .product img {
+    width: 400px;
+  }
+  
+  .product .description {
+    text-align: center;
+    color: var(--moonstone); /* Use the moonstone color for text color */
+  }
+  
+  .product:hover {
+    background-color: var(--paynes-gray); /* Use the paynes-gray color on hover */
+    color: #fff; /* Set text color to white on hover */
+  }
+  
+  .addToCartBttn {
+    background-color: var(--moonstone); /* Use the moonstone color for the button */
+    border: 2px solid var(--paynes-gray); /* Use the paynes-gray color for the border */
     min-width: 100px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 15px;
-}
-
-.addToCartBttn:hover {
-    background-color: rgb(19, 19, 19);
-    color: white;
+    color: #fff; /* Set text color to white */
     cursor: pointer;
-}
+  }
+  
+  .addToCartBttn:hover {
+    background-color: var(--paynes-gray); /* Use the paynes-gray color on hover */
+  }
+  

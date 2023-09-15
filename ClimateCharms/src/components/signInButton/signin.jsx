@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import {auth,provider} from "./config";
+import { useEffect, useState } from "react";
+import {auth,provider} from "../../config";
 import {signInWithPopup} from "firebase/auth";
-import Home from "./Home";
+import Home from "../../Home";
 
 function SignIn(){
     const [value,setValue] = useState('')
@@ -22,5 +22,5 @@ return (
         <button onClick={handleClick}>Iniciar Sesión con Google</button>
         }
     </div>
-)
-    }
+) }
+export default SignIn;

@@ -1,5 +1,5 @@
 import './App.css'
-import NavigationBar from "./assets/Navbar.jsx";
+import NavigationBar from "./components/navbar/Navbar.jsx";
 import {Route,Routes} from "react-router-dom"
 import {BrowserRouter} from "react-router-dom"
 import Login from './Login.jsx';
