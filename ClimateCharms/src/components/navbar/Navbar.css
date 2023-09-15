@@ -1,0 +1,25 @@
+/* Navbar.css */
+.navbar-custom {
+    background-color: var(--sunglow); /* Use paynes-gray for the background color */
+    color: var(--moonstone); /* Use moonstone for the text color */
+    padding: 10px 0; /* Adjust padding for the navbar */
+    border-bottom: 2px solid var(--moonstone); /* Add a border to the bottom */
+    
+
+  }
+  
+  .navbar-custom .nav-link {
+    color: var(--moonstone); /* Use moonstone for the nav link text color */
+    border: 2px solid var(--sunglow); /* Add a border to the nav links */
+    padding: 5px 15px; /* Adjust padding for button-like appearance */
+    border-radius: 5px; /* Add rounded borders to the nav links */
+    transition: color 0.3s ease, border-color 0.3s ease;
+    background-color: bisque;
+  
+    &:hover {
+      color: var(--sunglow); /* Change to sunglow on hover */
+      border-color: var(--sunglow); /* Change border color on hover */
+
+    }
+  }
+  

@@ -1,0 +1,114 @@
+/* Home.css */
+:root {
+  /* CSS HEX */
+  --sunglow: #ffc857ff;
+  --moonstone: #47a8bdff;
+  --aquamarine: #b2ffd6ff;
+  --paynes-gray: #495867ff;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Set the background to white */
+  color: var(--paynes-gray); /* Use paynes-gray for the default font color */
+}
+
+/* Header Styles */
+.Header {
+
+  text-align: center;
+  padding: 20px;
+}
+
+.Logo {
+  width: 10%; /* Adjust the size as needed */
+}
+
+/* Introduction Styles */
+.Introduction {
+  text-align: center;
+  margin: 20px;
+}
+
+.Introduction h1 {
+  font-size: 24px;
+  color: var(--paynes-gray); /* Use paynes-gray for the heading color */
+  font-weight: bold; /* Make the heading text bold */
+}
+
+.Introduction p {
+  font-size: 18px;
+  color: var(--moonstone); /* Use moonstone for the paragraph text color */
+}
+
+/* Weather Section Styles */
+.WeatherSection {
+  text-align: center;
+  margin: 20px;
+}
+.WeatherSection h2 {
+  font-size: 24px;
+  color: var(--paynes-gray); /* Use paynes-gray for the heading color */
+  font-weight: bold; /* Make the heading text bold */
+}
+
+/* About Us Styles */
+.AboutUs {
+  padding: 20px;
+  text-align: center;
+}
+
+.AboutUs h2 {
+  font-size: 24px;
+  color: var(--paynes-gray); /* Use paynes-gray for the heading color */
+  font-weight: bold; /* Make the heading text bold */
+}
+
+.AboutUs p {
+  font-size: 18px;
+  color: var(--moonstone); /* Use moonstone for the paragraph text color */
+}
+
+/* CTA Section Styles */
+.CTA {
+  text-align: center;
+  margin: 20px;
+}
+
+.CTA h2 {
+  font-size: 24px;
+  color: var(--paynes-gray); /* Use paynes-gray for the heading color */
+  font-weight: bold; /* Make the heading text bold */
+}
+
+.CTA p {
+  font-size: 18px;
+  color: var(--moonstone); /* Use moonstone for the paragraph text color */
+}
+
+.Button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--sunglow); /* Use sunglow for button background */
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+  background-color: #2980b9;
+}
+
+/* Footer Styles*/
+.Footer {
+  color: #fff; /* Set the font color to white */
+  text-align: center;
+  padding: 10px;
+  background-color: var(--paynes-gray); /* Use sunglow for the background */
+}
