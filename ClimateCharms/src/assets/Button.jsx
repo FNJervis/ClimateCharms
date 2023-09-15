@@ -5,7 +5,7 @@ function Boton() {
         <>
             <Button variant="primary" size="lg" active>
                Google
-            </Button>{' '}
+            </Button>{' '}  
         </>
     );
 }
