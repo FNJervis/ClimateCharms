@@ -1,5 +1,6 @@
-import reactLogo from './assets/react.svg'; {/*Aqui va el import del logo de la tienda*/}
+//import reactLogo from './assets/react.svg'; {/*Aqui va el import del logo de la tienda*/}
 import './Login.css'
+import SignIn from './components/signInButton/signin'
 import Boton from "./assets/Button.jsx"
 function Login() {
 
@@ -12,10 +13,8 @@ function Login() {
                         <br></br>
                         <h6 className="Auth-form-text">Ingresa con tu cuenta de Google</h6>
                         <div>
-                            {/*Aqui va el logo de la tienda*/}
-                            <img src={reactLogo} className="logo" />
                         </div>
-                        <Boton/>
+                        <SignIn />
                     </div>
                 </form>
             </div>
