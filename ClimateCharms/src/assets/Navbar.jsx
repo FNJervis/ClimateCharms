@@ -22,10 +22,9 @@ function NavigationBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        {/*Agregar link a tienda y home*/}
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/Shop">Catálgo</Nav.Link>
-                        <Nav.Link as={Link} to="/">Login</Nav.Link>
+                        <Nav.Link as={Link} to="/Login">Login</Nav.Link>
                         <Nav.Link as={Link} to="/Cart">Carrito</Nav.Link>
 
                     </Nav>
