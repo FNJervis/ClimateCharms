@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import {Link} from "react-router-dom"
 import reactLogo from './react.svg';
 import CartIcon from './cart.png'
+import Logo from './logo.jpg'
+import LogoPrueba from './logo_2.png'
 
 function NavigationBar() {
     return (
@@ -11,7 +13,7 @@ function NavigationBar() {
             <Container>
                     <Navbar.Brand href="#home">
                         <img
-                            src={reactLogo}
+                            src={LogoPrueba}
                             width="30"
                             height="30"
                             className="d-inline-block align-top"

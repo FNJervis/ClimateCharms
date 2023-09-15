@@ -4,7 +4,7 @@ function Boton() {
     return (
         <>
             <Button variant="primary" size="lg" active>
-               Google
+               Inicia Sesión
             </Button>{' '}
         </>
     );
